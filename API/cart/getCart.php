@@ -25,3 +25,6 @@ else{
     echo json_encode($productsCart);
     var_dump(http_response_code(200));
 }
+
+http_response_code(200);
+echo json_encode($productsCart);
